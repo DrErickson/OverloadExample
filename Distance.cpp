@@ -35,3 +35,10 @@ Distance Distance::operator+(Distance &otherDistance) {
 
     return Distance();
 }
+
+int Distance::operator[](string parameter) {
+    if (parameter == "feet") {
+        return feet;
+    }
+    return 0;
+}

@@ -19,6 +19,10 @@ public:
     Distance operator+(Distance& otherDistance);
     //friend Distance operator+(Distance&, Distance&);  // This is another way to overload.
 
+    //ostream& operator<<(ostream& outStm);  // Overload output stream
+    //int operator[](int index);           // We can even overload []
+    //int operator[](string parameter);    // We can even overload []
+
     // Getters/Setters
     int getFeet() const;
     int getInch() const;
